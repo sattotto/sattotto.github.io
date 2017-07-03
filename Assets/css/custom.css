@@ -1,9 +1,44 @@
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+    color: #ffffff;
+    background: url(../img/header_img.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+h2.shadow { 
+    text-shadow: 5px 5px 5px #666;
+}
+
+h4.shadow { 
+    text-shadow: 3px 3px 5px #666;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.divide-short {
+    width: 130px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+
+.divide {
+    width: 300px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 60px;
+  height: 80px;
   background-color: #f5f5f5;
 }
 body > .container {
