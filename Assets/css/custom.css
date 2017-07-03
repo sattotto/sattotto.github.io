@@ -1,3 +1,4 @@
+/* header */
 .intro-header {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -33,12 +34,27 @@ h4.shadow {
     border-bottom: 3px solid rgba(0,0,0,0.2);
 }
 
+/* contents */
+.contents {
+    padding: 20px 5% 20px;
+    width: 100%;
+}
+
+.content {
+    padding: 15px 10px 15px;
+}
+
+.content+ .content{
+    border-top: 1px solid #000000;
+}
+
+/* footer */
 .footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 80px;
+  height: 60px;
   background-color: #f5f5f5;
 }
 body > .container {
